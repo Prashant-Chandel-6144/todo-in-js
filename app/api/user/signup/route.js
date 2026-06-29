@@ -27,6 +27,7 @@ export async function POST(req) {
       password: hashedPassword,
     });
 
+     
     // Return user without password
     const safeUser = {
       _id:   user._id,
